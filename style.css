@@ -1,189 +1,105 @@
 /*colors */
-
 :root {
-    --text: #1c1b1b;
-    --white: #fbfbfb;
-    --primary: #4e5968;    /* Grey color for primary button */
-    --secondary: #3a99d9;  /* Blue color for secondary button */
-    --success: #f3c623;    /* Yellow color for success button */
-    --danger: #d9534f;     /* Red color for danger button */
-    --warning: #8e44ad;    /* Purple color for warning button */
-    --info: #e67e22;       /* Orange color for info button */
-  }
+  --blue-primary: #4e5968;    /* Blue color for primary button */
+  --green-primary: #00cc66;   /* Green color for primary button */
+  --red-primary: #ff3300;     /* Red color for primary button */
+  --secondary: #3a99d9;       /* Blue color for secondary button */
+  --yellow-secondary: #f3c623; /* Yellow color for secondary button */
+  --purple-secondary: #8e44ad; /* Purple color for secondary button */
+  --black-hover: #000000;      /* Hover color */
+}
 
-  /*Typography */
+/* Typography */
+body {
+  font-family: "Roboto", sans-serif;
+}
 
-  body {
-    font-family: "Roboto", sans-serif;
-  }
+.roboto-light, .roboto-medium, .roboto-bold, .roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
 
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+.roboto-light {
+  font-weight: 300;
+}
 
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
+.roboto-medium {
+  font-weight: 500;
+}
 
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+.roboto-bold {
+  font-weight: 700;
+}
 
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
+.roboto-light-italic {
+  font-weight: 300;
+  font-style: italic;
+}
 
-  /* Buttons */
+/* Buttons */
+.btn {
+  filter: drop-shadow(2px 2px 5px #000000);
+  border-radius: 0;
+}
 
-  .btn {
-    filter: drop-shadow(2px 2px 5px #000000);
-    border-radius: 0;
-  }
+/* Primary Buttons */
+.btn-primary-blue {
+  background-color: var(--blue-primary);
+  color: var(--white);
+  border-color: var(--text);
+}
 
+.btn-primary-blue:hover {
+  background-color: var(--black-hover);
+}
 
+.btn-primary-green {
+  background-color: var(--green-primary);
+  color: var(--white);
+  border-color: var(--text);
+}
 
-  /* Primary Button */
-  .btn-primary {
-    background-color: var(--primary);
-    color: var(--white);
-    border-color: var(--text);
-  }
+.btn-primary-green:hover {
+  background-color: var(--black-hover);
+}
 
-  .btn-primary:hover {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--primary);
-  }
+.btn-primary-red {
+  background-color: var(--red-primary);
+  color: var(--white);
+  border-color: var(--text);
+}
 
-  .btn-primary:focus {
-    box-shadow: 0 0 0 0.25rem var(--primary);
-  }
+.btn-primary-red:hover {
+  background-color: var(--black-hover);
+}
 
-  .btn-primary:active {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--primary);
-  }
+/* Secondary Buttons */
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--white);
+  border-color: var(--text);
+}
 
-  /* Secondary Button */
-  .btn-secondary {
-    background-color: var(--secondary);
-    color: var(--white);
-    border-color: var(--text);
-  }
+.btn-secondary:hover {
+  background-color: var(--black-hover);
+}
 
-  .btn-secondary:hover {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--secondary);
-  }
+.btn-secondary-yellow {
+  background-color: var(--yellow-secondary);
+  color: var(--white);
+  border-color: var(--text);
+}
 
-  .btn-secondary:focus {
-    box-shadow: 0 0 0 0.25rem var(--secondary);
-  }
+.btn-secondary-yellow:hover {
+  background-color: var(--black-hover);
+}
 
-  .btn-secondary:active {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--secondary);
-  }
+.btn-secondary-purple {
+  background-color: var(--purple-secondary);
+  color: var(--white);
+  border-color: var(--text);
+}
 
-  /* Success Button */
-  .btn-success {
-    background-color: var(--success);
-    color: var(--white);
-    border-color: var(--text);
-  }
-
-  .btn-success:hover {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--success);
-  }
-
-  .btn-success:focus {
-    box-shadow: 0 0 0 0.25rem var(--success);
-  }
-
-  .btn-success:active {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--success);
-  }
-
-  /* Danger Button */
-  .btn-danger {
-    background-color: var(--danger);
-    color: var(--white);
-    border-color: var(--text);
-  }
-
-  .btn-danger:hover {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--danger);
-  }
-
-  .btn-danger:focus {
-    box-shadow: 0 0 0 0.25rem var(--danger);
-  }
-
-  .btn-danger:active {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--danger);
-  }
-
-  /* Warning Button */
-  .btn-warning {
-    background-color: var(--warning);
-    color: var(--white);
-    border-color: var(--text);
-  }
-
-  .btn-warning:hover {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--warning);
-  }
-
-  .btn-warning:focus {
-    box-shadow: 0 0 0 0.25rem var(--warning);
-  }
-
-  .btn-warning:active {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--warning);
-  }
-
-  /* Info Button */
-  .btn-info {
-    background-color: var(--info);
-    color: var(--white);
-    border-color: var(--text);
-  }
-
-  .btn-info:hover {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--info);
-  }
-
-  .btn-info:focus {
-    box-shadow: 0 0 0 0.25rem var(--info);
-  }
-
-  .btn-info:active {
-    background-color: var(--text);
-    color: var(--white);
-    border-color: var(--info);
-  }
+.btn-secondary-purple:hover {
+  background-color: var(--black-hover);
+}
