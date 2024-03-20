@@ -24,46 +24,88 @@
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <main class="container mt-3">
-      <header class="row">
+    <header class="row">
+      <div class="col">
+        <h1>Funky UI Component Library</h1>
+        <h2>By: Vachan Rai</h2>
+        <p>
+          This is a multipurpose CSS component library, based on Bootstrap 5.0
+        </p>
+      </div>
+      <section class="row">
+        <h3>Button styles</h3>
+        <p>
+          Buttons are a global component with the following states: hover,
+          focus, active.
+        </p>
         <div class="col">
-          <h1>Funky UI Component Library</h1>
-          <h2>By: Vachan Rai</h2>
-          <p>
-            This is a multipurpose CSS component library, based on Bootstrap 5.0
-          </p>
+          <button type="button" class="btn btn-primary btn-sm">Primary</button>
         </div>
-        <section class="row">
-          <h3>Button styles</h3>
-          <p>
-            Buttons are a global component with the following states: hover,
-            focus, active.
-          </p>
-          <div class="col">
-            <button type="button" class="btn btn-primary">Primary</button>
-          </div>
 
-          <div class="col">
-            <button type="button" class="btn btn-secondary">Secondary</button>
-          </div>
+        <div class="col">
+          <button type="button" class="btn btn-secondary">Secondary</button>
+        </div>
 
-          <div class="col">
-            <button type="button" class="btn btn-success">Success</button>
-          </div>
+        <div class="col">
+          <button type="button" class="btn btn-success btn-lg">Success</button>
+        </div>
 
-          <div class="col">
-            <button type="button" class="btn btn-danger">Danger</button>
-          </div>
+        <div class="col">
+          <button type="button" class="btn btn-danger btn-lg">Danger</button>
+        </div>
 
-          <div class="col">
-            <button type="button" class="btn btn-warning">Warning</button>
-          </div>
+        <div class="col">
+          <button type="button" class="btn btn-warning">Warning</button>
+        </div>
 
-          <div class="col">
-            <button type="button" class="btn btn-info">Info</button>
+        <div class="col">
+          <button type="button" class="btn btn-info btn-sm">Info</button>
+        </div>
+      </section>
+    </header>
+    <main class="">
+      <div class="d-flex">
+        <div class="card m-3" style="width: 18rem">
+          <img
+            src="card-image-1.jpg"
+            class="card-img-top"
+            alt="Raccon Holding Phone"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Raccon Holding the Phone</h5>
+            <p class="card-text">
+              Raccon attempting to hold a smartphone. The owner is trying to
+              help the raccon use a smartphone.
+            </p>
           </div>
-        </section>
-      </header>
+        </div>
+        <div class="card m-3" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">Nature and Animals</h5>
+            <p class="card-text">
+              Observing how animals behave in nature. What they do and manage
+              their life.
+            </p>
+            <a
+              href="https://www.pexels.com/search/animals%20and%20nature/"
+              class="btn btn-primary"
+              >Click me</a
+            >
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="alert alert-primary" role="alert">
+          You have a free gift. Please claim it.
+        </div>
+        <div class="alert alert-success" role="alert">
+          An item has been added to the cart.
+        </div>
+        <div class="alert alert-danger" role="alert">Something went wrong.</div>
+        <div class="alert alert-warning" role="alert">
+          Add an item before you check out.
+        </div>
+      </div>
     </main>
   </body>
 </html>
