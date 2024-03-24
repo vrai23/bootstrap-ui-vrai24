@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
 /*colors */
 :root {
   --blue-primary: #4e5968;    /* Blue color for primary button */
@@ -11,7 +12,7 @@
 
 /* Typography */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Tauri", sans-serif;
 }
 
 .roboto-light, .roboto-medium, .roboto-bold, .roboto-light-italic {
