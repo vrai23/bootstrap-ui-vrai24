@@ -52,6 +52,7 @@ body {
 
 .btn-primary-blue:hover {
   background-color: var(--black-hover);
+  color:white
 }
 
 .btn-primary-green {
@@ -62,6 +63,7 @@ body {
 
 .btn-primary-green:hover {
   background-color: var(--black-hover);
+  color:white
 }
 
 .btn-primary-red {
@@ -72,6 +74,7 @@ body {
 
 .btn-primary-red:hover {
   background-color: var(--black-hover);
+  color:white
 }
 
 /* Secondary Buttons */
@@ -83,6 +86,7 @@ body {
 
 .btn-secondary:hover {
   background-color: var(--black-hover);
+  color:white
 }
 
 .btn-secondary-yellow {
@@ -93,6 +97,7 @@ body {
 
 .btn-secondary-yellow:hover {
   background-color: var(--black-hover);
+  color:white
 }
 
 .btn-secondary-purple {
@@ -103,4 +108,5 @@ body {
 
 .btn-secondary-purple:hover {
   background-color: var(--black-hover);
+  color:white
 }
