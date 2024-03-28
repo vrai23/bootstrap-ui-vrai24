@@ -1,112 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
 /*colors */
 :root {
-  --blue-primary: #4e5968;    /* Blue color for primary button */
-  --green-primary: #00cc66;   /* Green color for primary button */
-  --red-primary: #ff3300;     /* Red color for primary button */
-  --secondary: #3a99d9;       /* Blue color for secondary button */
-  --yellow-secondary: #f3c623; /* Yellow color for secondary button */
-  --purple-secondary: #8e44ad; /* Purple color for secondary button */
+  --blue-primary: #007bff;    /* Blue color for primary button */
+  --yellow-primary: #ffc107;  /* Yellow color for primary button */
+  --red-primary: #dc3545;     /* Red color for primary button */
+  --orange-secondary: #fd7e14; /* Orange color for secondary button */
+  --green-secondary: #28a745;  /* Green color for secondary button */
+  --violet-secondary: #6f42c1; /* Violet color for secondary button */
   --black-hover: #000000;      /* Hover color */
-}
-
-/* Typography */
-body {
-  font-family: "Tauri", sans-serif;
-}
-
-.roboto-light, .roboto-medium, .roboto-bold, .roboto-light-italic {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-}
-
-.roboto-light {
-  font-weight: 300;
-}
-
-.roboto-medium {
-  font-weight: 500;
-}
-
-.roboto-bold {
-  font-weight: 700;
-}
-
-.roboto-light-italic {
-  font-weight: 300;
-  font-style: italic;
-}
-
-/* Buttons */
-.btn {
-  filter: drop-shadow(2px 2px 5px #000000);
-  border-radius: 0;
 }
 
 /* Primary Buttons */
 .btn-primary-blue {
   background-color: var(--blue-primary);
-  color: var(--white);
-  border-color: var(--text);
 }
 
 .btn-primary-blue:hover {
   background-color: var(--black-hover);
-  color:white
+  color: white;
 }
 
-.btn-primary-green {
-  background-color: var(--green-primary);
-  color: var(--white);
-  border-color: var(--text);
+.btn-primary-yellow {
+  background-color: var(--yellow-primary);
 }
 
-.btn-primary-green:hover {
+.btn-primary-yellow:hover {
   background-color: var(--black-hover);
-  color:white
+  color: white;
 }
 
 .btn-primary-red {
   background-color: var(--red-primary);
-  color: var(--white);
-  border-color: var(--text);
 }
 
 .btn-primary-red:hover {
   background-color: var(--black-hover);
-  color:white
+  color: white;
 }
 
 /* Secondary Buttons */
-.btn-secondary {
-  background-color: var(--secondary);
-  color: var(--white);
-  border-color: var(--text);
+.btn-secondary-orange {
+  background-color: var(--orange-secondary);
 }
 
-.btn-secondary:hover {
+.btn-secondary-orange:hover {
   background-color: var(--black-hover);
-  color:white
+  color: white;
 }
 
-.btn-secondary-yellow {
-  background-color: var(--yellow-secondary);
-  color: var(--white);
-  border-color: var(--text);
+.btn-secondary-green {
+  background-color: var(--green-secondary);
 }
 
-.btn-secondary-yellow:hover {
+.btn-secondary-green:hover {
   background-color: var(--black-hover);
-  color:white
+  color: white;
 }
 
-.btn-secondary-purple {
-  background-color: var(--purple-secondary);
-  color: var(--white);
-  border-color: var(--text);
+.btn-secondary-violet {
+  background-color: var(--violet-secondary);
 }
 
-.btn-secondary-purple:hover {
+.btn-secondary-violet:hover {
   background-color: var(--black-hover);
-  color:white
+  color: white;
 }
